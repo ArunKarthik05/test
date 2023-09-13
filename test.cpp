@@ -1,2 +1,5 @@
 int a=10;
-cout<<a%2;
+int sum(int n){
+    if(n==1)    return;
+    return n+sum(n-1);
+}
